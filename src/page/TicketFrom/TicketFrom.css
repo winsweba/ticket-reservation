@@ -1,0 +1,171 @@
+.body__form{
+padding: 35px;
+/* padding-left: 100px; */
+}
+.main__form{
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.main__form * {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+.form__title{
+  font-size: 2em;
+  font-weight: 600;
+}
+.form__item{
+display: flex;
+flex-direction: column;
+}
+.form__label{
+align-self: flex-start;
+padding: 10px;
+
+}
+.form__select{
+  display: flex;
+  flex-direction: row;
+}
+.form__input__select{
+  -webkit-appearance: none;
+  width: 100%;
+  max-width: 150px;
+
+  /* Fix for IOS */
+  min-height: calc(0.9 +(0.8em * 2) + 0.6em);
+
+  height: 40px;
+  padding: 0.2em;
+  font-size: 0.9em;
+  font-family: sans-serif;
+
+
+  outline: none;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  background: #f9f9f9;
+  transition: background 0.25s, border-color 0.25s, color 0.25s;
+}
+
+.select__departure{
+  margin-right: 20px;
+  
+}
+.select__destination{
+  margin-right: 20px;
+  /* margin-bottom: 10px; */
+}
+.select__date{
+  margin-right: 20px;
+}
+
+.form__name{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.form__Phone__number{
+  display: flex;
+  flex-direction: column;
+}
+
+.form__number__of__ticket{
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input{
+  -webkit-appearance: none;
+  width: 100%;
+  max-width: 425px;
+
+  /* Fix for IOS */
+  min-height: calc(0.9 +(0.8em * 2) + 0.6em);
+
+  height: 40px;
+  padding: 0.8em;
+  font-size: 1em;
+  font-family: sans-serif;
+
+
+  outline: none;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  background: #f9f9f9;
+  transition: background 0.25s, border-color 0.25s, color 0.25s;
+}
+.form__input:focus {
+  background: #ffffff;
+}
+.form__input::placeholder{
+  color: #dddddd;
+}
+.form__btn{
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 1.1em;
+  padding: 10px 16px;
+  margin: 10px 0;
+
+  width: 100%;
+  max-width: 225px;
+
+  color: #ffffff;
+  background: #14b64a;
+  border: 2px solid #0fa942;
+  border-radius: 5px;
+
+  cursor: pointer;
+  outline: none;
+}
+
+.form__btn:active {
+  background: #0fa942;
+}
+
+.form__fieldset{
+  width: 100%;
+  max-width: 425px;
+}
+
+.form__total__amount{
+  font-size: 1.5em;
+  padding: 5px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form__error{
+font-weight: 600;
+color: #d50000;
+font-size: 0.9em;
+}
+.form__input__error{
+  color: #d50000;
+  background: #fff8f8;
+  border-color: #d50000;
+}
+input{
+  /* -webkit-appearance: none; */
+}
+select{
+  -webkit-appearance: none;
+}
