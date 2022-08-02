@@ -29,6 +29,9 @@ import {
   wiawso,
 } from "../../config/regionData";
 
+import { useAuth } from "../../context/AuthContext";
+import { Link, useNavigate } from "react-router-dom";
+ 
 function App() {
   const [ticketFormData, setTicketFormData] = useState({
     firstName: "",
@@ -42,6 +45,10 @@ function App() {
   });
 
   const [totalAmount, setTotalAmount] = useState(0);
+
+  let navigate = useNavigate();
+
+  const { currentUser } = useAuth();
 
   // console.log(ticketFormData.destination === "Sunyani" && true);
   // console.log(ticketFormData.destination === "Sunyani" && true);
@@ -1314,13 +1321,14 @@ function App() {
     computingForPrice();
     // checkDate()
     //d.getDate()
+    console.log(currentUser)
   }, [
     ticketFormData.departure,
     ticketFormData.destination,
     ticketFormData.ticketAmount,
   ]);
 
-  const addOn = async () => {
+  const addOn = async (event) => {
     // await setDoc(doc(db, "users", "a"), {
     //   love: "game",
     //   Hey: "Hart",
@@ -1335,12 +1343,16 @@ function App() {
     //   let rand = Math.floor(Math.random * autoID.length);
     //   serial += autoID[rand]
     // }
+
+    event.preventDefault()
     let serial = Math.floor(Math.random() * 10000000000) + 1;
 
     const docRef = await addDoc(collection(db, "tickets"), {
       ticketFormData,
       payment: totalAmount,
       autoID: serial,
+      userID: currentUser.uid,
+      userEmail: currentUser.email,
       timeStamp: serverTimestamp(),
     });
   };
@@ -1358,7 +1370,7 @@ function App() {
   };
   return (
     <div className="body__form">
-      <div className="main__form">
+      <form className="main__form">
         <div className="form__title">Ticket Form</div>
         <div className="form__item">
           <label className="form__label">Select Departure and Destination Area and Date for Traveling </label>
@@ -1419,6 +1431,7 @@ function App() {
               name="date"
               value={ticketFormData.date}
               onChange={handleTacketFormChange}
+              required true
             />
           </div>
           <div className="form__name">
@@ -1433,6 +1446,7 @@ function App() {
               value={ticketFormData.firstName}
               onChange={handleTacketFormChange}
               placeholder="First Name"
+              required
             />
             <label className="form__label" htmlFor="lastName">
               Please Enter Your Last Name
@@ -1445,6 +1459,7 @@ function App() {
               placeholder="Last Name"
               value={ticketFormData.lastName}
               onChange={handleTacketFormChange}
+              required
             />
           </div>
           <div className="form__Phone__number">
@@ -1459,6 +1474,7 @@ function App() {
               placeholder="Phone Number"
               value={ticketFormData.phoneNumber}
               onChange={handleTacketFormChange}
+              required
             />
           </div>
           <div>
@@ -1471,6 +1487,7 @@ function App() {
                 value="10:30 am"
                 checked={ticketFormData.timing === "10:30 am"}
                 onChange={handleTacketFormChange}
+                required
               />
               <label htmlFor="morning">Morning at 10:30 am</label>
               <br />
@@ -1481,6 +1498,7 @@ function App() {
                 value="8:30 pm"
                 checked={ticketFormData.timing === "8:30 pm"}
                 onChange={handleTacketFormChange}
+                required
               />
               <label htmlFor="evening">Evening at 8:30 pm</label>
             </fieldset>
@@ -1499,12 +1517,13 @@ function App() {
               placeholder="Enter Number OF Ticket (Max of 5)"
               value={ticketFormData.ticketAmount}
               onChange={handleTacketFormChange}
+              required
             />
           </div>
           <div className="form__total__amount"> Your Ticket Cost GH{totalAmount}</div>
-          <button className="form__btn" onClick={addOn}>Make Payment GH{totalAmount}</button>
+          <button className="form__btn" type="submit" onClick={addOn}>Make Payment GH{totalAmount}</button>
         </div>
-      </div>
+      </form>
     </div>
   );
 }

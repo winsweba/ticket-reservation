@@ -1,19 +1,20 @@
 import React from 'react'
 import './ComponentStyle.css'
 import Image from "../Images/busstation.jpg"
+import { Link } from 'react-router-dom'
 
 
 const ProvidingService = () => {
   return (
     <div>  
-    <section class="box box-b bg-secondary grid-col-2">
+    <section className="box box-b bg-secondary grid-col-2">
       <img src={Image} alt="" />
-      <div class="box-text">
-        <h2 class="text-xl">We Promise To Deliver</h2>
-        <p class="text-md">
+      <div className="box-text">
+        <h2 className="text-xl">We Promise To Deliver</h2>
+        <p className="text-md">
           write about safety information, and what you can Deliver 
         </p>
-        <a href="#" class="btn btn-light-outline">Order Ticket Now </a>
+        <Link to={"/ticket-form"} className="btn btn-light-outline">Order Ticket Now </Link>
       </div>
     </section>
   </div>

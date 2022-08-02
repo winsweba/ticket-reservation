@@ -1,24 +1,37 @@
-import React from 'react'
-import './Navbar.css'
+import React from "react";
+import "./Navbar.css";
+import { useAuth } from "../../context/AuthContext";
+import { Link, useNavigate } from "react-router-dom";
+
 
 const NavigationBar = () => {
-  return (
-    
-<div >
+  let navigate = useNavigate();
+ const { logout  } = useAuth();
 
-<div className='nave'>
-        <div className='nav-title'>Ticket App</div>
-        <div className='nave-list'>
-        {/* <div className='nav-popular' >Popular</div> */}
-        {/* <div className='nav-tv' >TV </div> */}
-        <div className='nav-movie'>Bookings </div>
-        <div className='nav-movie-a'>Help </div>
-        <div className='search-btn'>Log Out</div>
-       
-        </div>
-    </div>
-    </div>
-  )
+ const handelLogOut = async ()=> {
+
+  try {
+    await logout()
+    // navigate("/")
+  } catch {
+    // setError("Failed to log out")
+  }
 }
 
-export default NavigationBar
+  return (
+    <div>
+      <div className="nave">
+        <div className="nav-title">Ticket App</div>
+        <div className="nave-list">
+          {/* <div className='nav-popular' >Popular</div> */}
+          {/* <div className='nav-tv' >TV </div> */}
+          <Link to={'/ticket-booking'} className="nav-movie">Bookings </Link>
+          <Link to={'/help'} className="nav-movie-a">Help </Link>
+          <button onClick={handelLogOut} className="search-btn">Log Out</button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default NavigationBar;
