@@ -4,7 +4,7 @@ import Registration from "./page/Registration/Registration";
 import LandingPage from "./page/LandingPage";
 import TicketFrom from "./page/TicketFrom/TicketFrom";
 import { AuthProvider } from "./context/AuthContext";
-import BookingPage from "./page/BookingPage";
+import BookingPage from "./page/Booking/BookingPage";
 import HelpPage from "./page/HelpPage";
 import { useAuth } from "./context/AuthContext";
 
@@ -38,7 +38,7 @@ const App = () => {
           element={
             <RequireAuth>
               <TicketFrom />
-            </RequireAuth>
+             </RequireAuth> 
           }
         />
         <Route

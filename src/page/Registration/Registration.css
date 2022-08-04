@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-*{
+.body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,7 +8,7 @@
 .body{
   margin-top: 50px;
   display: grid;
-  height: 500px;
+  height: 550px;
   width: 100%;
   place-items: center;
   background: url(./busstation.jpg);
@@ -17,10 +17,10 @@
   
   /* background: -webkit-linear-gradient(left, #a445b2, #fa4299); */
 }
-::selection{
+/* .body{
   background: #fa4299;
   color: #fff;
-}
+} */
 .wrapper{
   overflow: hidden;
   max-width: 390px;

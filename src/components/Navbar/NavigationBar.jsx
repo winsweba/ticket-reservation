@@ -25,8 +25,8 @@ const NavigationBar = () => {
         <div className="nave-list">
           {/* <div className='nav-popular' >Popular</div> */}
           {/* <div className='nav-tv' >TV </div> */}
-          <Link to={'/ticket-booking'} className="nav-movie">Bookings </Link>
-          <Link to={'/help'} className="nav-movie-a">Help </Link>
+          <Link to={'/ticket-booking'} className="nav-booking">Bookings </Link>
+          <Link to={'/help'} className="nav-help">Help </Link>
           <button onClick={handelLogOut} className="search-btn">Log Out</button>
         </div>
       </div>

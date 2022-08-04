@@ -1,6 +1,6 @@
 import React from 'react'
 import './ComponentStyle.css'
-import Image from "../Images/busstation.jpg"
+import Image from "../Images/busstationa.jpg"
 import { Link } from 'react-router-dom'
 
 

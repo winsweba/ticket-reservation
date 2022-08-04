@@ -1,6 +1,7 @@
 .body__form{
 padding: 35px;
 /* padding-left: 100px; */
+background: url("./bus-ticket-book.jpg") no-repeat center ;
 }
 .main__form{
   font-family: sans-serif;
@@ -22,6 +23,7 @@ flex-direction: column;
 .form__label{
 align-self: flex-start;
 padding: 10px;
+font-size: 1.2em;
 
 }
 .form__select{
@@ -156,7 +158,7 @@ padding: 10px;
 .form__error{
 font-weight: 600;
 color: #d50000;
-font-size: 0.9em;
+font-size: 2em;
 }
 .form__input__error{
   color: #d50000;

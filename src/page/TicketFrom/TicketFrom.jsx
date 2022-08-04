@@ -45,6 +45,7 @@ function App() {
   });
 
   const [totalAmount, setTotalAmount] = useState(0);
+  const [showError, setShowError] = useState("")
 
   let navigate = useNavigate();
 
@@ -1329,6 +1330,7 @@ function App() {
   ]);
 
   const addOn = async (event) => {
+    event.preventDefault()
     // await setDoc(doc(db, "users", "a"), {
     //   love: "game",
     //   Hey: "Hart",
@@ -1344,17 +1346,37 @@ function App() {
     //   serial += autoID[rand]
     // }
 
-    event.preventDefault()
-    let serial = Math.floor(Math.random() * 10000000000) + 1;
+    // firstName: "",
+    // lastName: "",
+    // phoneNumber: "",
+    // destination: "",
+    // departure: "",
+    // timing: "",
+    // ticketAmount: 1,
+    // date: 0,
+    if(
+    ticketFormData.firstName === "" || ticketFormData.lastName === "" 
+    || ticketFormData.phoneNumber === "" || ticketFormData.destination === "" 
+    || ticketFormData.departure === "" || ticketFormData.timing === "" 
+    || ticketFormData.date === 0 || ticketFormData.ticketAmount === 0)
+    {
+      setShowError("Please Make Sure to Fill the Forms")
+    }
+    else{
+      
+      let serial = Math.floor(Math.random() * 10000000000) + 1;
+  
+      const docRef = await addDoc(collection(db, "tickets"), {
+        ticketFormData,
+        payment: totalAmount,
+        autoID: serial,
+        userID: currentUser.uid,
+        userEmail: currentUser.email,
+        timeStamp: serverTimestamp(),
+      });
+    }
 
-    const docRef = await addDoc(collection(db, "tickets"), {
-      ticketFormData,
-      payment: totalAmount,
-      autoID: serial,
-      userID: currentUser.uid,
-      userEmail: currentUser.email,
-      timeStamp: serverTimestamp(),
-    });
+   
   };
 
   const handleTacketFormChange = (event) => {
@@ -1371,6 +1393,7 @@ function App() {
   return (
     <div className="body__form">
       <form className="main__form">
+        <div className="form__error">{showError}</div>
         <div className="form__title">Ticket Form</div>
         <div className="form__item">
           <label className="form__label">Select Departure and Destination Area and Date for Traveling </label>
@@ -1484,8 +1507,8 @@ function App() {
                 type="radio"
                 id="morning"
                 name="timing"
-                value="10:30 am"
-                checked={ticketFormData.timing === "10:30 am"}
+                value="Morning at 10:30 am"
+                checked={ticketFormData.timing === "Morning at 10:30 am"}
                 onChange={handleTacketFormChange}
                 required
               />
@@ -1495,10 +1518,10 @@ function App() {
                 type="radio"
                 id="evening"
                 name="timing"
-                value="8:30 pm"
-                checked={ticketFormData.timing === "8:30 pm"}
+                value="Evening at 8:30 pm"
+                checked={ticketFormData.timing === "Evening at 8:30 pm"}
                 onChange={handleTacketFormChange}
-                required
+                required true
               />
               <label htmlFor="evening">Evening at 8:30 pm</label>
             </fieldset>
@@ -1517,7 +1540,7 @@ function App() {
               placeholder="Enter Number OF Ticket (Max of 5)"
               value={ticketFormData.ticketAmount}
               onChange={handleTacketFormChange}
-              required
+              required true
             />
           </div>
           <div className="form__total__amount"> Your Ticket Cost GH{totalAmount}</div>

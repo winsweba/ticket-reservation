@@ -6,11 +6,7 @@
   --color-extra: #d4e9e2;
 }
 
-/* *{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-} */
+
 
 html, body{
   font-family: 'Open Sans', sans-serif;
@@ -181,7 +177,7 @@ section a {
 .text-xl {
   font-size: 30px;
   text-transform: uppercase;
-  letter-spacing: 6px;
+  letter-spacing: 3px;
   font-weight: 600;
   margin-bottom: 20px;
 }
