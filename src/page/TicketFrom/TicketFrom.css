@@ -1,11 +1,12 @@
 .body__form{
 padding: 35px;
 /* padding-left: 100px; */
-background: url("./bus-ticket-book.jpg") no-repeat center ;
+background: #f0eeeec7;
 }
 .main__form{
   font-family: sans-serif;
   font-size: 16px;
+  background: url("./bus-ticket-book.jpg") no-repeat center ;
 }
 
 .main__form * {
@@ -126,6 +127,29 @@ font-size: 1.2em;
 
 .form__btn:active {
   background: #0fa942;
+}
+.form__btn_cancel:active {
+  background: #d50000;
+  color: #ffffff;
+}
+
+.form__btn_cancel{
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 1.1em;
+  padding: 10px 16px;
+  margin: 10px 0;
+
+  width: 100%;
+  max-width: 225px;
+
+  color: #d50000;
+  border-color: #d50000;
+  border: 2px solid #d50000;
+  border-radius: 5px;
+
+  cursor: pointer;
+  outline: none;
 }
 
 .form__fieldset{

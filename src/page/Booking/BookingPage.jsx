@@ -21,14 +21,14 @@ const BookingPage = () => {
         snapshot.docs.forEach((doc) => {
           list.push({ id: doc.id, ...doc.data() });
         });
-        // console.log(snapshot.docs)
+        console.log(list)
         setGetBookingData(list);
       },
       (error) => {
         console.log(error);
       }
     );
-      console.log(unsub);
+      // console.log(unsub);
     return () => {
       unsub();
     };
@@ -51,6 +51,7 @@ const BookingPage = () => {
         Departure={data.ticketFormData.departure}
         Destination={data.ticketFormData.destination}
         TimeOfDeparture={data.ticketFormData.timing}
+        HaveLuggage={data.ticketFormData.luggage}
         Amount={data.payment}
         NumberOfTicket={data.ticketFormData.ticketAmount}
         TravelDate={data.ticketFormData.date}
@@ -74,7 +75,7 @@ const BookingPage = () => {
         TravelDate="20-12-2022"
       /> */}
 
-      {getBookingData === null ? "You have No Bookings yet " : Booking}
+      {getBookingData.length === 0 ? "You have No Bookings yet " : Booking}
       {/* <BookingCard/> */}
     </div>
   );

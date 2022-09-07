@@ -2,7 +2,8 @@
 
 :root {
   --color-primary: #006241;
-  --color-secondary: #d50032;
+  /* --color-secondary: #d50032; */
+  --color-secondary: #f38ba3;
   --color-extra: #d4e9e2;
 }
 
@@ -36,8 +37,11 @@ section a {
 }
 
 .box-a{
-  margin-top: 150px;
+  margin-top: 50px;
 }
+/* .box-a{
+  margin-top: 150px;
+} */
 /* Footer section */
 .footer-container {
   width: 100%;

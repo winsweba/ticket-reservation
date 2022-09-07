@@ -38,6 +38,7 @@ export function AuthProvider({children}) {
             const errorMessage = error.message;
             console.log(errorCode)
             console.log(errorMessage)
+            alert("Invalid Email or Password")
             // ..
           });
         
@@ -60,6 +61,7 @@ export function AuthProvider({children}) {
             const errorMessage = error.message;
             console.log(errorCode)
             console.log(errorMessage)
+            alert("Invalid Email or Password")
             // ..
           });
         

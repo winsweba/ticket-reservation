@@ -3,9 +3,7 @@ import "./TicketFrom.css";
 import {
   addDoc,
   collection,
-  doc,
   serverTimestamp,
-  setDoc,
 } from "firebase/firestore";
 import { useEffect, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
@@ -40,6 +38,7 @@ function App() {
     destination: "",
     departure: "",
     timing: "",
+    luggage: "",
     ticketAmount: 1,
     date: 0,
   });
@@ -51,9 +50,13 @@ function App() {
 
   const { currentUser } = useAuth();
 
-  // console.log(ticketFormData.destination === "Sunyani" && true);
-  // console.log(ticketFormData.destination === "Sunyani" && true);
 
+
+  const navigateBack = (e) => {
+    e.preventDefault()
+
+    navigate(-1)
+  }
   const computingForPrice = () => {
     if (
       ticketFormData.departure === kumasi &&
@@ -1312,7 +1315,7 @@ function App() {
       `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}` ===
       ticketFormData.date
     ) {
-      console.log("Errroorrr");
+      console.log("Error");
     } else {
       console.log("Good");
     }
@@ -1331,34 +1334,13 @@ function App() {
 
   const addOn = async (event) => {
     event.preventDefault()
-    // await setDoc(doc(db, "users", "a"), {
-    //   love: "game",
-    //   Hey: "Hart",
-    //   Go: "Hi",
-    //   timeStamp: serverTimestamp(),
-    // });
-
-    // const autoID = "1234567890"
-
-    // let  serial = ""
-    // for (let i = 0; i < autoID.length; i++  ){
-    //   let rand = Math.floor(Math.random * autoID.length);
-    //   serial += autoID[rand]
-    // }
-
-    // firstName: "",
-    // lastName: "",
-    // phoneNumber: "",
-    // destination: "",
-    // departure: "",
-    // timing: "",
-    // ticketAmount: 1,
-    // date: 0,
     if(
     ticketFormData.firstName === "" || ticketFormData.lastName === "" 
     || ticketFormData.phoneNumber === "" || ticketFormData.destination === "" 
     || ticketFormData.departure === "" || ticketFormData.timing === "" 
-    || ticketFormData.date === 0 || ticketFormData.ticketAmount === 0)
+    || ticketFormData.date === 0 || ticketFormData.ticketAmount === 0 
+    || ticketFormData.luggage === ""
+    )
     {
       setShowError("Please Make Sure to Fill the Forms")
     }
@@ -1369,8 +1351,9 @@ function App() {
       const docRef = await addDoc(collection(db, "tickets"), {
         ticketFormData,
         payment: totalAmount,
-        autoID: serial,
+        autoID: serial.toString(),
         userID: currentUser.uid,
+        isSave: "save",
         userEmail: currentUser.email,
         timeStamp: serverTimestamp(),
       });
@@ -1500,9 +1483,11 @@ function App() {
               required
             />
           </div>
+
+          <div className="form__label">Take Oof Time</div>
           <div>
             <fieldset className="form__fieldset">
-              <legend>Take of Time</legend>
+              <legend>Take Oof Time</legend>
               <input
                 type="radio"
                 id="morning"
@@ -1516,6 +1501,17 @@ function App() {
               <br />
               <input
                 type="radio"
+                id="afternoon"
+                name="timing"
+                value="Afternoon at 1:30 pm"
+                checked={ticketFormData.timing === "Afternoon at 1:30 pm"}
+                onChange={handleTacketFormChange}
+                required true
+              />
+              <label htmlFor="afternoon">Afternoon at 12:30 pm</label>
+              <br />
+              <input
+                type="radio"
                 id="evening"
                 name="timing"
                 value="Evening at 8:30 pm"
@@ -1526,6 +1522,38 @@ function App() {
               <label htmlFor="evening">Evening at 8:30 pm</label>
             </fieldset>
           </div>
+
+
+
+          <div className="form__label">Do You Have Luggages? </div>
+
+          <div>
+          <fieldset className="form__fieldset">
+              <legend>Do You Have Luggages? </legend>
+              <input
+                type="radio"
+                id="yes"
+                name="luggage"
+                value="Yes"
+                checked={ticketFormData.luggage === "Yes"}
+                onChange={handleTacketFormChange}
+                required
+              />
+              <label htmlFor="yes">Yes</label>
+              <br />
+              <input
+                type="radio"
+                id="no"
+                name="luggage"
+                value="No"
+                checked={ticketFormData.luggage === "No"}
+                onChange={handleTacketFormChange}
+                required true
+              />
+              <label htmlFor="no">No</label>
+             
+            </fieldset>
+          </div>
           <div className="form__number__of__ticket">
             <label className="form__label" htmlFor="ticketAmount">
               Please Enter Number OF Ticket Needed
@@ -1533,11 +1561,11 @@ function App() {
             <input
               className="form__input"
               min="1"
-              max="5"
+              max="20"
               type="number"
               name="ticketAmount"
               id="ticketAmount"
-              placeholder="Enter Number OF Ticket (Max of 5)"
+              placeholder="Enter Number OF Ticket (Max of 20)"
               value={ticketFormData.ticketAmount}
               onChange={handleTacketFormChange}
               required true
@@ -1545,6 +1573,7 @@ function App() {
           </div>
           <div className="form__total__amount"> Your Ticket Cost GH{totalAmount}</div>
           <button className="form__btn" type="submit" onClick={addOn}>Make Payment GH{totalAmount}</button>
+          <button className="form__btn_cancel" type="submit" onClick={navigateBack}>Cancel Reservation</button>
         </div>
       </form>
     </div>

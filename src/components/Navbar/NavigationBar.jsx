@@ -6,6 +6,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 const NavigationBar = () => {
   let navigate = useNavigate();
+  
  const { logout  } = useAuth();
 
  const handelLogOut = async ()=> {

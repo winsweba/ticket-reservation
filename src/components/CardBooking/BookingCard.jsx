@@ -13,6 +13,7 @@ LastName,
   TimeOfDeparture,
   NumberOfTicket,
   TravelDate,
+  HaveLuggage,
 }) => {
   return (
     <div className="container">
@@ -26,6 +27,7 @@ LastName,
         <div>Amount ::: {Amount}</div>
         <div>Number of Ticket ::: {NumberOfTicket}</div>
         <div>Time of Departure ::: {TimeOfDeparture} </div>
+        <div>Have a Luggage ::: {HaveLuggage} </div>
         <div>Travel Date ::: {TravelDate}</div>
       </div>
     </div>
