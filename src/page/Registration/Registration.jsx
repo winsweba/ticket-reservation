@@ -11,7 +11,6 @@ const Registration = () => {
     password: "",
     confirmPassword: "",
   });
-  // let navigate = useNavigate();
 
   const { createUser, login, currentUser } = useAuth();
 
@@ -31,11 +30,6 @@ const Registration = () => {
     });
   };
 
-  // async function  () {
-  
-     
-    
-  // }
 
   const handleFormSubmitLogin = async (event) => {
     event.preventDefault()

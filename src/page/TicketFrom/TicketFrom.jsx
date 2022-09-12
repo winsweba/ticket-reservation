@@ -29,7 +29,10 @@ import {
 
 import { useAuth } from "../../context/AuthContext";
 import { Link, useNavigate } from "react-router-dom";
- 
+
+import PaystackPop from "@paystack/inline-js"
+
+
 function App() {
   const [ticketFormData, setTicketFormData] = useState({
     firstName: "",
@@ -45,6 +48,9 @@ function App() {
 
   const [totalAmount, setTotalAmount] = useState(0);
   const [showError, setShowError] = useState("")
+
+ 
+  
 
   let navigate = useNavigate();
 
@@ -1306,6 +1312,8 @@ function App() {
     }
   };
 
+
+
   const checkDate = () => {
     const d = new Date();
     console.log(`${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`);
@@ -1332,8 +1340,8 @@ function App() {
     ticketFormData.ticketAmount,
   ]);
 
-  const addOn = async (event) => {
-    event.preventDefault()
+  const addOn = async (transaction) => {
+    
     if(
     ticketFormData.firstName === "" || ticketFormData.lastName === "" 
     || ticketFormData.phoneNumber === "" || ticketFormData.destination === "" 
@@ -1354,7 +1362,10 @@ function App() {
         autoID: serial.toString(),
         userID: currentUser.uid,
         isSave: "save",
+        seatNumber: "Will be giving to you soon",
+        carNumber: "Will be giving to you soon",
         userEmail: currentUser.email,
+        transaction: transaction,
         timeStamp: serverTimestamp(),
       });
     }
@@ -1373,6 +1384,54 @@ function App() {
       };
     });
   };
+
+
+
+  // Making Payment
+   ///PayStack
+
+  const handelPayment =(event) => {
+
+    event.preventDefault()
+    const payStack = new PaystackPop() 
+    if(
+      ticketFormData.firstName === "" || ticketFormData.lastName === "" 
+      || ticketFormData.phoneNumber === "" || ticketFormData.destination === "" 
+      || ticketFormData.departure === "" || ticketFormData.timing === "" 
+      || ticketFormData.date === 0 || ticketFormData.ticketAmount === 0 
+      || ticketFormData.luggage === ""
+      )
+      {
+        setShowError("Please Make Sure to Fill the Forms")
+      }
+      else{
+
+        payStack.newTransaction({
+          key: "pk_test_00befaec3fcedec0c033bf685eca8f49549844a4",
+          amount: totalAmount * 100,
+          email: currentUser.email,
+          firstName: ticketFormData.firstName,
+          lastName: ticketFormData.lastName,
+          onSuccess(transaction){
+            
+            addOn(transaction.reference);
+            navigate(-1)
+            alert(`Good... ${transaction.reference}`)
+    
+          },
+          onCancel(){
+            alert("Bab.......")
+          }
+          
+        })
+      }
+
+
+  } 
+
+
+
+
   return (
     <div className="body__form">
       <form className="main__form">
@@ -1572,7 +1631,7 @@ function App() {
             />
           </div>
           <div className="form__total__amount"> Your Ticket Cost GH{totalAmount}</div>
-          <button className="form__btn" type="submit" onClick={addOn}>Make Payment GH{totalAmount}</button>
+          <button className="form__btn" type="submit" onClick={handelPayment}>Make Payment GH{totalAmount}</button>
           <button className="form__btn_cancel" type="submit" onClick={navigateBack}>Cancel Reservation</button>
         </div>
       </form>

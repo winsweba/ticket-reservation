@@ -14,7 +14,12 @@ LastName,
   NumberOfTicket,
   TravelDate,
   HaveLuggage,
+  PaymentId,
+  SeatNumber,
+CarNumber,
 }) => {
+//   setNumber
+// carNumber
   return (
     <div className="container">
       <div className="card__container">
@@ -29,6 +34,9 @@ LastName,
         <div>Time of Departure ::: {TimeOfDeparture} </div>
         <div>Have a Luggage ::: {HaveLuggage} </div>
         <div>Travel Date ::: {TravelDate}</div>
+        <div>Payment ID ::: {PaymentId}</div>
+        <div>Seat Number ::: {SeatNumber}</div>
+        <div>Car Number ::: {CarNumber}</div>
       </div>
     </div>
   );

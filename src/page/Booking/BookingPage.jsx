@@ -3,6 +3,9 @@ import React, { useEffect, useState } from "react";
 import { useAuth } from "../../context/AuthContext";
 import { db } from "../../config/FirebaseConfig";
 import BookingCard from "../../components/CardBooking/BookingCard";
+import NavigationBar from "../../components/Navbar/NavigationBar";
+import './Booking.css'
+import { Link } from "react-router-dom";
 
 const BookingPage = () => {
   const [getBookingData, setGetBookingData] = useState([]);
@@ -55,28 +58,26 @@ const BookingPage = () => {
         Amount={data.payment}
         NumberOfTicket={data.ticketFormData.ticketAmount}
         TravelDate={data.ticketFormData.date}
+        PaymentId={data.transaction}
+        SeatNumber={data.seatNumber}
+        CarNumber={data.carNumber}  
+
       />
     )
   })
 
   return (
-    <div className="body__card">
-{/* 
-      <BookingCard
-        OrderingDate="2-08-2022"
-        TicketId="1234"
-        Username="Win Ernest"
-        NumberPhone="000222000"
-        Departure="Kumasi"
-        Destination="Accra"
-        TimeOfDeparture="Morning 10:30 am"
-        Amount="GH20"
-        NumberOfTicket="2"
-        TravelDate="20-12-2022"
-      /> */}
+    <div className="">
+      <div className="nave">
+      <div className="nav-title">You Have {getBookingData.length} Reserve </div>
+        <div className="nave-list">
+          <Link to={'/'} className="nav-booking">Home</Link>
+          <Link to={'/help'} className="nav-help">Help </Link>
+        </div>
+        </div>
+
 
       {getBookingData.length === 0 ? "You have No Bookings yet " : Booking}
-      {/* <BookingCard/> */}
     </div>
   );
 };
