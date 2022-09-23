@@ -1,12 +1,12 @@
 .body__form{
 padding: 35px;
 /* padding-left: 100px; */
-background: #f0eeeec7;
+background: #a09e9ec7;
 }
 .main__form{
   font-family: sans-serif;
   font-size: 16px;
-  background: url("./bus-ticket-book.jpg") no-repeat center ;
+  background: url("./bus-ticket-book1.jpg") no-repeat center ;
 }
 
 .main__form * {

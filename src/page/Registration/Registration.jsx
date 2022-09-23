@@ -63,8 +63,8 @@ const Registration = () => {
       <div className="body">
         <div className="wrapper">
           <div className="title-text">
-            <div className="title login">Login Form</div>
-            <div className="title signup">Signup Form</div>
+            <div className="title login">Write Your AO Something Something  Login Form Here</div>
+            {/* <div className="title signup">Signup Form</div> */}
           </div>
           <div className="form-container">
             <div className="slide-controls">
