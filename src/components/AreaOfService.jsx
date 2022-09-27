@@ -20,6 +20,7 @@ const AreaOfService = () => {
     </section>
     <footer className="footer">
       <div className="footer-container">
+     
         <p>© 2022 Ticket Reservation. All rights reserved.</p>
       </div>
     </footer>

@@ -68,77 +68,77 @@ function App() {
       ticketFormData.departure === kumasi &&
       ticketFormData.destination === sunyani
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(25 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === kumasi &&
       ticketFormData.destination === techiman
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(30 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === kumasi &&
       ticketFormData.destination === goaso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(20 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === kumasi &&
       ticketFormData.destination === capeCoast
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(34 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === kumasi &&
       ticketFormData.destination === koforidua
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(28 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === kumasi &&
       ticketFormData.destination === accra
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(37 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === kumasi &&
       ticketFormData.destination === tamale
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(35 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === kumasi &&
       ticketFormData.destination === damongo
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(45 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === kumasi &&
       ticketFormData.destination === nalerigu
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(40 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === kumasi &&
       ticketFormData.destination === bolgatanga
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(45 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === kumasi &&
       ticketFormData.destination === waT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(42 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === kumasi &&
       ticketFormData.destination === hoT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(35 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === kumasi &&
       ticketFormData.destination === dambai
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(45 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === kumasi &&
       ticketFormData.destination === takoradi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(40 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === kumasi &&
       ticketFormData.destination === wiawso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(45 * ticketFormData.ticketAmount);
     }
 
     //Sunyani to ******************************
@@ -146,77 +146,77 @@ function App() {
       ticketFormData.departure === sunyani &&
       ticketFormData.destination === kumasi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(35 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === sunyani &&
       ticketFormData.destination === techiman
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(40 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === sunyani &&
       ticketFormData.destination === goaso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(44 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === sunyani &&
       ticketFormData.destination === capeCoast
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(35 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === sunyani &&
       ticketFormData.destination === koforidua
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(45 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === sunyani &&
       ticketFormData.destination === accra
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(40 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === sunyani &&
       ticketFormData.destination === tamale
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(42 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === sunyani &&
       ticketFormData.destination === damongo
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(35 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === sunyani &&
       ticketFormData.destination === nalerigu
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(43 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === sunyani &&
       ticketFormData.destination === bolgatanga
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(35 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === sunyani &&
       ticketFormData.destination === waT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(45 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === sunyani &&
       ticketFormData.destination === hoT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(40 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === sunyani &&
       ticketFormData.destination === dambai
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(35 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === sunyani &&
       ticketFormData.destination === takoradi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(48 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === sunyani &&
       ticketFormData.destination === wiawso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(43 * ticketFormData.ticketAmount);
     }
 
     //techiman *******************************************
@@ -224,77 +224,77 @@ function App() {
       ticketFormData.departure === techiman &&
       ticketFormData.destination === kumasi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(44 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === techiman &&
       ticketFormData.destination === sunyani
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(45 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === techiman &&
       ticketFormData.destination === goaso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(42 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === techiman &&
       ticketFormData.destination === capeCoast
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === techiman &&
       ticketFormData.destination === koforidua
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(43 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === techiman &&
       ticketFormData.destination === accra
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(44 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === techiman &&
       ticketFormData.destination === tamale
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(45 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === techiman &&
       ticketFormData.destination === damongo
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(43 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === techiman &&
       ticketFormData.destination === nalerigu
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(35 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === techiman &&
       ticketFormData.destination === bolgatanga
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(42 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === techiman &&
       ticketFormData.destination === waT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(35 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === techiman &&
       ticketFormData.destination === hoT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(43 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === techiman &&
       ticketFormData.destination === dambai
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(43 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === techiman &&
       ticketFormData.destination === takoradi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(40 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === techiman &&
       ticketFormData.destination === wiawso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(35 * ticketFormData.ticketAmount);
     }
 
     // goaso *******************************************
@@ -302,77 +302,77 @@ function App() {
       ticketFormData.departure === goaso &&
       ticketFormData.destination === kumasi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(40 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === goaso &&
       ticketFormData.destination === techiman
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(35 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === goaso &&
       ticketFormData.destination === sunyani
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(40 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === goaso &&
       ticketFormData.destination === capeCoast
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(45 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === goaso &&
       ticketFormData.destination === koforidua
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === goaso &&
       ticketFormData.destination === accra
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(40 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === goaso &&
       ticketFormData.destination === tamale
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(45 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === goaso &&
       ticketFormData.destination === damongo
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(40 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === goaso &&
       ticketFormData.destination === nalerigu
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(43 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === goaso &&
       ticketFormData.destination === bolgatanga
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(42 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === goaso &&
       ticketFormData.destination === waT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(45 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === goaso &&
       ticketFormData.destination === hoT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(35 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === goaso &&
       ticketFormData.destination === dambai
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(44 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === goaso &&
       ticketFormData.destination === takoradi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(40 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === goaso &&
       ticketFormData.destination === wiawso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(43 * ticketFormData.ticketAmount);
     }
 
     ///capeCoast**************************
@@ -380,77 +380,77 @@ function App() {
       ticketFormData.departure === capeCoast &&
       ticketFormData.destination === kumasi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(45 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === capeCoast &&
       ticketFormData.destination === techiman
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(42 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === capeCoast &&
       ticketFormData.destination === goaso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(43 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === capeCoast &&
       ticketFormData.destination === sunyani
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(45 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === capeCoast &&
       ticketFormData.destination === koforidua
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(40 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === capeCoast &&
       ticketFormData.destination === accra
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === capeCoast &&
       ticketFormData.destination === tamale
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(45 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === capeCoast &&
       ticketFormData.destination === damongo
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(40 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === capeCoast &&
       ticketFormData.destination === nalerigu
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(42 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === capeCoast &&
       ticketFormData.destination === bolgatanga
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(48 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === capeCoast &&
       ticketFormData.destination === waT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(33 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === capeCoast &&
       ticketFormData.destination === hoT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(44 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === capeCoast &&
       ticketFormData.destination === dambai
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(40 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === capeCoast &&
       ticketFormData.destination === takoradi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(33 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === capeCoast &&
       ticketFormData.destination === wiawso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(44 * ticketFormData.ticketAmount);
     }
 
     ///koforidua*******************************************
@@ -458,77 +458,77 @@ function App() {
       ticketFormData.departure === koforidua &&
       ticketFormData.destination === kumasi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(33 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === koforidua &&
       ticketFormData.destination === techiman
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(44 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === koforidua &&
       ticketFormData.destination === goaso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(45 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === koforidua &&
       ticketFormData.destination === capeCoast
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(42 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === koforidua &&
       ticketFormData.destination === sunyani
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(44 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === koforidua &&
       ticketFormData.destination === accra
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(33 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === koforidua &&
       ticketFormData.destination === tamale
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(48 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === koforidua &&
       ticketFormData.destination === damongo
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(44 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === koforidua &&
       ticketFormData.destination === nalerigu
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === koforidua &&
       ticketFormData.destination === bolgatanga
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(33 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === koforidua &&
       ticketFormData.destination === waT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(42 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === koforidua &&
       ticketFormData.destination === hoT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(48 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === koforidua &&
       ticketFormData.destination === dambai
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(33 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === koforidua &&
       ticketFormData.destination === takoradi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === koforidua &&
       ticketFormData.destination === wiawso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(44 * ticketFormData.ticketAmount);
     }
 
     ///accra***********************************************
@@ -536,77 +536,77 @@ function App() {
       ticketFormData.departure === accra &&
       ticketFormData.destination === kumasi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(42 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === accra &&
       ticketFormData.destination === techiman
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === accra &&
       ticketFormData.destination === goaso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(33 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === accra &&
       ticketFormData.destination === capeCoast
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(45 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === accra &&
       ticketFormData.destination === koforidua
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === accra &&
       ticketFormData.destination === sunyani
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(33 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === accra &&
       ticketFormData.destination === tamale
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(42 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === accra &&
       ticketFormData.destination === damongo
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === accra &&
       ticketFormData.destination === nalerigu
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(43 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === accra &&
       ticketFormData.destination === bolgatanga
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === accra &&
       ticketFormData.destination === waT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(27 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === accra &&
       ticketFormData.destination === hoT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === accra &&
       ticketFormData.destination === dambai
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === accra &&
       ticketFormData.destination === takoradi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(42 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === accra &&
       ticketFormData.destination === wiawso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     }
 
     ///tamale***************************************
@@ -614,77 +614,77 @@ function App() {
       ticketFormData.departure === tamale &&
       ticketFormData.destination === kumasi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(48 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === tamale &&
       ticketFormData.destination === techiman
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(33 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === tamale &&
       ticketFormData.destination === goaso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === tamale &&
       ticketFormData.destination === capeCoast
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === tamale &&
       ticketFormData.destination === koforidua
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(27 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === tamale &&
       ticketFormData.destination === accra
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === tamale &&
       ticketFormData.destination === sunyani
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(42 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === tamale &&
       ticketFormData.destination === damongo
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(48 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === tamale &&
       ticketFormData.destination === nalerigu
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === tamale &&
       ticketFormData.destination === bolgatanga
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(43 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === tamale &&
       ticketFormData.destination === waT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(43 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === tamale &&
       ticketFormData.destination === hoT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === tamale &&
       ticketFormData.destination === dambai
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(42 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === tamale &&
       ticketFormData.destination === takoradi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(44 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === tamale &&
       ticketFormData.destination === wiawso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(33 * ticketFormData.ticketAmount);
     }
 
     //damongo*************************************************
@@ -692,77 +692,77 @@ function App() {
       ticketFormData.departure === damongo &&
       ticketFormData.destination === kumasi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === damongo &&
       ticketFormData.destination === techiman
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(33 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === damongo &&
       ticketFormData.destination === goaso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(42 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === damongo &&
       ticketFormData.destination === capeCoast
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === damongo &&
       ticketFormData.destination === koforidua
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(33 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === damongo &&
       ticketFormData.destination === accra
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(43 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === damongo &&
       ticketFormData.destination === tamale
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === damongo &&
       ticketFormData.destination === sunyani
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(22 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === damongo &&
       ticketFormData.destination === nalerigu
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(43 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === damongo &&
       ticketFormData.destination === bolgatanga
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(41 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === damongo &&
       ticketFormData.destination === waT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(43 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === damongo &&
       ticketFormData.destination === hoT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === damongo &&
       ticketFormData.destination === dambai
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(48 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === damongo &&
       ticketFormData.destination === takoradi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(43 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === damongo &&
       ticketFormData.destination === wiawso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(27 * ticketFormData.ticketAmount);
     }
 
     // nalerigu**************************************************
@@ -770,77 +770,77 @@ function App() {
       ticketFormData.departure === nalerigu &&
       ticketFormData.destination === kumasi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === nalerigu &&
       ticketFormData.destination === techiman
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(33 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === nalerigu &&
       ticketFormData.destination === goaso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(43 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === nalerigu &&
       ticketFormData.destination === capeCoast
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === nalerigu &&
       ticketFormData.destination === koforidua
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(22 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === nalerigu &&
       ticketFormData.destination === accra
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === nalerigu &&
       ticketFormData.destination === tamale
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(43 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === nalerigu &&
       ticketFormData.destination === damongo
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(41 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === nalerigu &&
       ticketFormData.destination === sunyani
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(44 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === nalerigu &&
       ticketFormData.destination === bolgatanga
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(43 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === nalerigu &&
       ticketFormData.destination === waT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(33 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === nalerigu &&
       ticketFormData.destination === hoT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(22 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === nalerigu &&
       ticketFormData.destination === dambai
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(44 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === nalerigu &&
       ticketFormData.destination === takoradi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(33 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === nalerigu &&
       ticketFormData.destination === wiawso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(43 * ticketFormData.ticketAmount);
     }
 
     //// bolgatanga**************************************
@@ -848,77 +848,77 @@ function App() {
       ticketFormData.departure === bolgatanga &&
       ticketFormData.destination === kumasi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(33 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === bolgatanga &&
       ticketFormData.destination === techiman
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(41 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === bolgatanga &&
       ticketFormData.destination === goaso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(29 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === bolgatanga &&
       ticketFormData.destination === capeCoast
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
-      ticketFormData.departure === bolgatanga &&
+      ticketFormData.departure === bolgatanga &33&
       ticketFormData.destination === koforidua
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(22 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === bolgatanga &&
       ticketFormData.destination === accra
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(27 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === bolgatanga &&
       ticketFormData.destination === tamale
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(44 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === bolgatanga &&
       ticketFormData.destination === damongo
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === bolgatanga &&
       ticketFormData.destination === nalerigu
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(29 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === bolgatanga &&
       ticketFormData.destination === sunyani
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(41 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === bolgatanga &&
       ticketFormData.destination === waT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(29 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === bolgatanga &&
       ticketFormData.destination === hoT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === bolgatanga &&
       ticketFormData.destination === dambai
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(29 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === bolgatanga &&
       ticketFormData.destination === takoradi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(27 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === bolgatanga &&
       ticketFormData.destination === wiawso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(43 * ticketFormData.ticketAmount);
     }
 
     //// Wa ************************************************
@@ -926,77 +926,77 @@ function App() {
       ticketFormData.departure === waT &&
       ticketFormData.destination === kumasi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(29 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === waT &&
       ticketFormData.destination === techiman
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(22 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === waT &&
       ticketFormData.destination === goaso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(29 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === waT &&
       ticketFormData.destination === capeCoast
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === waT &&
       ticketFormData.destination === koforidua
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(27 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === waT &&
       ticketFormData.destination === accra
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(44 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === waT &&
       ticketFormData.destination === tamale
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === waT &&
       ticketFormData.destination === damongo
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(29 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === waT &&
       ticketFormData.destination === nalerigu
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(41 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === waT &&
       ticketFormData.destination === bolgatanga
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(22 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === waT &&
       ticketFormData.destination === sunyani
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(41 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === waT &&
       ticketFormData.destination === hoT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === waT &&
       ticketFormData.destination === dambai
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(29 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === waT &&
       ticketFormData.destination === takoradi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(37 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === waT &&
       ticketFormData.destination === wiawso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(48 * ticketFormData.ticketAmount);
     }
 
     // ho **********************************************
@@ -1004,77 +1004,77 @@ function App() {
       ticketFormData.departure === hoT &&
       ticketFormData.destination === kumasi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(22 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === hoT &&
       ticketFormData.destination === techiman
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(32 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === hoT &&
       ticketFormData.destination === goaso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(37 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === hoT &&
       ticketFormData.destination === capeCoast
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(46 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === hoT &&
       ticketFormData.destination === koforidua
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(41 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === hoT &&
       ticketFormData.destination === accra
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(46 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === hoT &&
       ticketFormData.destination === tamale
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(37 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === hoT &&
       ticketFormData.destination === damongo
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(27 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === hoT &&
       ticketFormData.destination === nalerigu
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(29 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === hoT &&
       ticketFormData.destination === bolgatanga
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(25 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === hoT &&
       ticketFormData.destination === waT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(48 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === hoT &&
       ticketFormData.destination === sunyani
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(22 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === hoT &&
       ticketFormData.destination === dambai
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(37 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === hoT &&
       ticketFormData.destination === takoradi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(27 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === hoT &&
       ticketFormData.destination === wiawso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(22 * ticketFormData.ticketAmount);
     }
 
     /// dambai *************************************
@@ -1082,77 +1082,77 @@ function App() {
       ticketFormData.departure === dambai &&
       ticketFormData.destination === kumasi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(37 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === dambai &&
       ticketFormData.destination === techiman
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(22 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === dambai &&
       ticketFormData.destination === goaso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(46 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === dambai &&
       ticketFormData.destination === capeCoast
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(35 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === dambai &&
       ticketFormData.destination === koforidua
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(29 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === dambai &&
       ticketFormData.destination === accra
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(35 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === dambai &&
       ticketFormData.destination === tamale
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(27 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === dambai &&
       ticketFormData.destination === damongo
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(46 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === dambai &&
       ticketFormData.destination === nalerigu
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(35 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === dambai &&
       ticketFormData.destination === bolgatanga
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(27 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === dambai &&
       ticketFormData.destination === waT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(46 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === dambai &&
       ticketFormData.destination === hoT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(35 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === dambai &&
       ticketFormData.destination === sunyani
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(37 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === dambai &&
       ticketFormData.destination === takoradi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(27 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === dambai &&
       ticketFormData.destination === wiawso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(35 * ticketFormData.ticketAmount);
     }
 
     // takoradi *************************************************
@@ -1160,32 +1160,32 @@ function App() {
       ticketFormData.departure === takoradi &&
       ticketFormData.destination === kumasi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(22 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === takoradi &&
       ticketFormData.destination === techiman
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(35 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === takoradi &&
       ticketFormData.destination === goaso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(35 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === takoradi &&
       ticketFormData.destination === capeCoast
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(22 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === takoradi &&
       ticketFormData.destination === koforidua
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(46 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === takoradi &&
       ticketFormData.destination === accra
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(27 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === takoradi &&
       ticketFormData.destination === tamale
@@ -1195,42 +1195,42 @@ function App() {
       ticketFormData.departure === takoradi &&
       ticketFormData.destination === damongo
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(46 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === takoradi &&
       ticketFormData.destination === nalerigu
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(27 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === takoradi &&
       ticketFormData.destination === bolgatanga
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(22 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === takoradi &&
       ticketFormData.destination === waT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(46 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === takoradi &&
       ticketFormData.destination === hoT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(37 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === takoradi &&
       ticketFormData.destination === dambai
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(48 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === takoradi &&
       ticketFormData.destination === sunyani
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(22 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === takoradi &&
       ticketFormData.destination === wiawso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(46 * ticketFormData.ticketAmount);
     }
 
     // wiawso *****************************************
@@ -1238,77 +1238,77 @@ function App() {
       ticketFormData.departure === wiawso &&
       ticketFormData.destination === kumasi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(27 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === wiawso &&
       ticketFormData.destination === techiman
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(37 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === wiawso &&
       ticketFormData.destination === goaso
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(46 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === wiawso &&
       ticketFormData.destination === capeCoast
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(22 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === wiawso &&
       ticketFormData.destination === koforidua
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(46 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === wiawso &&
       ticketFormData.destination === accra
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(27 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === wiawso &&
       ticketFormData.destination === tamale
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(37 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === wiawso &&
       ticketFormData.destination === damongo
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(22 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === wiawso &&
       ticketFormData.destination === nalerigu
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(27 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === wiawso &&
       ticketFormData.destination === bolgatanga
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(37 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === wiawso &&
       ticketFormData.destination === waT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(46 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === wiawso &&
       ticketFormData.destination === hoT
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(27 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === wiawso &&
       ticketFormData.destination === dambai
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(37 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === wiawso &&
       ticketFormData.destination === takoradi
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(22 * ticketFormData.ticketAmount);
     } else if (
       ticketFormData.departure === wiawso &&
       ticketFormData.destination === sunyani
     ) {
-      setTotalAmount(10 * ticketFormData.ticketAmount);
+      setTotalAmount(46 * ticketFormData.ticketAmount);
     }
   };
 
@@ -1416,11 +1416,11 @@ function App() {
             
             addOn(transaction.reference);
             navigate(-1)
-            alert(`Good... ${transaction.reference}`)
+            alert(`Transaction Successful... ${transaction.reference}`)
     
           },
           onCancel(){
-            alert("Bab.......")
+            alert("Bab Transaction. Please Try Again.......")
           }
           
         })
@@ -1630,9 +1630,9 @@ function App() {
               required true
             />
           </div>
-          <div className="form__total__amount"> Your Ticket Cost GH{totalAmount}</div>
-          <button className="form__btn" type="submit" onClick={handelPayment}>Make Payment GH{totalAmount}</button>
-          <button className="form__btn_cancel" type="submit" onClick={navigateBack}>Cancel Reservation</button>
+          <div className="form__total__amount"> Your Ticket Cost GH {totalAmount}</div>
+          <button className="form__btn" type="submit" onClick={handelPayment}>Make Payment GH {totalAmount}</button>
+          <button className="form__btn_cancel" type="submit" onClick={navigateBack}> Back </button>
         </div>
       </form>
     </div>
